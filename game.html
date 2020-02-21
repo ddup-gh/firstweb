@@ -190,7 +190,7 @@
                 for(var k = 0; k < count; k++){ // 将可能赢的情况都减1
                     if(wins[_compi][_compj][k]){
                         computerWin[k]--;
-                        myWin[k] = _myWin[i];//这个位置对方可能赢
+                        myWin[k] = _myWin[k];//这个位置对方可能赢
                     }
                 }
                 resultTxt.innerHTML = '--益智五子棋--';
